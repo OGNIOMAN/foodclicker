@@ -132,11 +132,19 @@ h2 {
 
 }
 
+.btn__login {
+margin-left: 60px;
+}
 
-/* main
-=====================*/
+.btn__reg {
+    margin: 30px auto;
+    max-width: 200px;
+}
 
-.main {}
+
+
+
+
 
 /* about
 =====================*/
@@ -346,6 +354,7 @@ input[name="r"] {
 
 .form__label {
     margin-top: 30px;
+    font-size: 20px;
 }
 
 .form__name {
@@ -354,6 +363,8 @@ input[name="r"] {
     height: 38px;
     background-color: #dddddd;
     border: none;
+    border-radius: 10px;
+    
 
 }
 
@@ -362,16 +373,16 @@ input[name="r"] {
     height: 134px;
     padding: 10px 10px;
     margin-top: 10px;
-    margin-bottom: 26px;
     background-color: #dddddd;
     border: none;
     resize: none;
+    border-radius: 10px;
 }
 
 .btn__send {
     padding: 5px 18px;
-    margin: 0 auto;
-    margin-bottom: 45px;
+    margin: 30px auto;
+    
     border: none;
 
 }
@@ -406,6 +417,17 @@ input[name="r"] {
     line-height: 40px;
     color: #ffffff;
     text-decoration: none;
+}
+
+/* REGISTRATION.HTML
+=====================*/
+
+.reg__title {
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+    
 }
 
 
@@ -463,6 +485,7 @@ input[name="r"] {
     width: 32%;
     margin-bottom: 27px;
 }
+
 
 /* MEDIA    1080px
 =====================*/
@@ -597,7 +620,12 @@ input[name="r"] {
     .btn {
         font-size: 14px;
         padding: 10px 15px;
+        margin: 0 auto;
 
+    }
+
+    .btn__reg {
+        margin: 15px auto;
     }
 
     .offer__title {
@@ -661,7 +689,7 @@ input[name="r"] {
     }
 
     .btn__send {
-        margin-bottom: 25px;
+        margin: 25px auto;
     }
 
     .cafe__header {
