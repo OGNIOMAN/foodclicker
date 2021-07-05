@@ -127,11 +127,10 @@ h2 {
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
-
-
-
 }
-
+.btn:hover {
+    background-color: #ff0011;
+}
 .btn__login {
 margin-left: 60px;
 }
@@ -419,6 +418,100 @@ input[name="r"] {
     text-decoration: none;
 }
 
+/* MODALS
+=====================*/
+
+.modal__bg {
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__content {
+    
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    border: 1px solid #a8a8a7 ;
+    max-width: 80%;
+    
+}
+
+.modal__title {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.modal__close {
+    
+    text-decoration: none;
+    color: #000;
+    opacity: 0.5;
+    font-size: 50px;
+    line-height: 20px;
+
+}
+.modal__close:hover {
+    opacity: 1;
+}
+
+.modal__header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #a8a8a7;
+    
+}
+
+.modal__title {
+    font-size: 26px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.loginfacebook {
+    margin: 30px auto; 
+}
+.loginfacebook img {
+    
+    height: 50px;
+    width: 300px;   
+}
+
+.modal__link {
+    color: #888886;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.modal__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+
+
+
 /* REGISTRATION.HTML
 =====================*/
 
@@ -621,9 +714,9 @@ input[name="r"] {
         font-size: 14px;
         padding: 10px 15px;
         margin: 0 auto;
-
+        
     }
-
+    
     .btn__reg {
         margin: 15px auto;
     }
@@ -739,5 +832,7 @@ input[name="r"] {
 
 
 }
+
+
 
 
