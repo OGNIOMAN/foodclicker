@@ -140,7 +140,17 @@ margin-left: 60px;
     max-width: 200px;
 }
 
+.btn__acc {
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
 
+.btn__basket img {
+    width: 80px;
+    height: 80px;
+}
 
 
 
@@ -439,7 +449,7 @@ input[name="r"] {
 .modal__content {
     
     width: 500px;
-    height: 600px;
+    
     background-color: #fff;
     border: 1px solid #a8a8a7 ;
     max-width: 80%;
@@ -486,14 +496,19 @@ input[name="r"] {
     padding-right: 50px;
 }
 
-.loginfacebook {
-    margin: 30px auto; 
+.login__img {
+    margin: 0 auto 10px auto;
+
 }
-.loginfacebook img {
+.login__img:last-child {
     
-    height: 50px;
-    width: 300px;   
+    margin-bottom: 30px;
 }
+.login__img img {
+    height: 50px;
+    width: 250px;   
+}
+
 
 .modal__link {
     color: #888886;
@@ -506,6 +521,7 @@ input[name="r"] {
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 20px;
     
 }
@@ -523,6 +539,68 @@ input[name="r"] {
     
 }
 
+
+/* ACCOUNT.HTML
+=====================*/
+
+
+/* BASKET.HTML
+=====================*/
+
+.basket__title {
+    font-size: 36px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.basket {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.basket__inner {
+    border: 1px solid #a8a8a7;
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.basket__payment {
+    border: 1px solid #a8a8a7;
+    width: 30%;
+    
+}
+
+.basket__order {
+    margin-top: 30px;
+    border-top: 1px solid #a8a8a7;
+    border-bottom: 1px solid #a8a8a7;
+}
+
+
+
+
+.payment__title {
+    font-size: 30px;
+    text-align: left;
+    color: #a8a8a7;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.payment__price {
+    font-size: 36px;
+    color: #000;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.btn__pay {
+    margin: 20px auto 10px 10px;
+}
 
 /* CAFE-1.HTML
 =====================*/
