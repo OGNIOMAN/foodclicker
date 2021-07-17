@@ -563,25 +563,90 @@ input[name="r"] {
 .basket__inner {
     border: 1px solid #a8a8a7;
     width: 69%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
+    
+    
 }
 
 .basket__payment {
     border: 1px solid #a8a8a7;
     width: 30%;
-    
+    max-height: 190px;
 }
 
 .basket__order {
-    margin-top: 30px;
+    
     border-top: 1px solid #a8a8a7;
     border-bottom: 1px solid #a8a8a7;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
 }
 
+.order__name {
+    display: flex;
+    margin: 15px 0;
+}
 
+.order__info {
+    margin-left: 10px;
+    color: #e20613;
+}
+.order__title {
+    display: inline-block;
+    color: #111;
+}
+.order__subtitle {
+    display: block;
+}
+
+.order__img {
+    height: 80px;
+    width: 80px;
+}
+
+.order__count {
+    display: flex;
+    align-items: center;
+   
+}
+
+.order__price {
+    font-size: 25px;
+    color: #111;
+    align-self: center;
+
+}
+
+.order__delete {
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.count__button {
+
+    font-size: 35px;
+    background:#fff;
+    color: #a8a8a7;
+    outline: none;
+    border: none;
+    border-left: 1px solid #a8a8a7;
+    border-right: 1px solid #a8a8a7;
+    cursor: pointer;
+}
+
+.count__button:hover {
+    color:#111;
+}
+
+.count__quantity {
+    font-size: 16px;
+    margin: 0 15px;
+    display: block;
+    align-self: center;
+}
 
 
 .payment__title {
